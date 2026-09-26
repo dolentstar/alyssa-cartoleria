@@ -18,7 +18,7 @@ body {
   background-image: linear-gradient(var(--quad) 1px, transparent 1px), linear-gradient(90deg, var(--quad) 1px, transparent 1px);
   background-size: 24px 24px;
 }
-h1, h2, h3 { font-family: var(--tit); color: var(--biro); line-height: 1.05; margin: 0 0 .5em; letter-spacing: -.015em; }
+h1, h2, h3 { text-wrap: balance; font-family: var(--tit); color: var(--biro); line-height: 1.05; margin: 0 0 .5em; letter-spacing: -.015em; }
 h2 { font-size: clamp(2.1rem, 4.6vw, 3.4rem); font-weight: 800; }
 h3 { font-size: 1.45rem; font-weight: 600; }
 p { margin: 0 0 1em; }
